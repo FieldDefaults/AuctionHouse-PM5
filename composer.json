@@ -9,12 +9,31 @@
 		}
 	],
 	"require": {
-		"pocketmine/pocketmine-mp": "^4.0",
-		"ext-json": "*"
+		"pocketmine/pocketmine-mp": "^5.0",
+		"ext-json": "*",
+		"sof3/await-generator": "^3.6.1",
+		"poggit/libasynql": "*",
+		"muqsit/invmenu": "4.6.5",
+		"ifera-mc/updatenotifier": "*",
+		"cortexpe/commando": "dev-pm5"
 	},
 	"autoload": {
 		"psr-4": {
 			"": "./src"
 		}
-	}
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url":  "git@github.com:JinodkDevTeam/Commando"
+		},
+		{
+			"type": "vcs",
+			"url":  "git@github.com:poggit/libasynql"
+		},
+		{
+			"type": "vcs",
+			"url":  "git@github.com:ifera-mc/updatenotifier"
+		}
+	]
 }
